@@ -93,46 +93,7 @@ enableComment = true
 disqus_shortname = ""
 commento = false
 
-[telegram]
-  enable = false
-  siteId = ""
-  dataLimit = 5
 
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
-[utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-
-[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
-
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
-  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
-  verify = false # Verification code
-  avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
-
-[changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
-
-[livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
 
 # Isso: https://posativ.org/isso/
 [isso]
@@ -143,8 +104,8 @@ commento = false
 [socialOptions]
   email = "mailto:ray@badassinvestorguide.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
+  facebook = ""
+  twitter = ""
   github = ""
   stack-overflow = ""
   instagram = ""
@@ -153,7 +114,7 @@ commento = false
   medium = ""
   tumblr = ""
   linkedin = ""
-  pinterest = ""
+  pinterest = "https://pinterest.com/badassinvestorguide"
   stack-exchange = ""
   telegram = ""
   steam = ""
