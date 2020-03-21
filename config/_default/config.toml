@@ -1,71 +1,54 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
-# Title of your site
+baseURL = "http://example.org"
 title = "Badass Investor Guide"
+theme = "zzo"
 
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
-
-# Enter a copyright notice to display in the site footer.
-# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "&copy;{year}"
-
-############################
-## Advanced options below ##
-############################
-
-# Name of Academic theme folder in `themes/`.
-theme = "academic"
-
-# Get last modified date for content from Git?
-enableGitInfo = false
-
-# Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguage = ""
 defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
+hasCJKLanguage = false
 
-paginate = 10  # Number of items per page in paginated lists.
+summaryLength = 70
+buildFuture = true
+
+copyright = "&copy;{year}, All Rights Reserved"
+timeout = 10000
 enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+paginate = 13
+rssLimit = 100
 
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
-
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
-
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
+enableGitInfo = false
+googleAnalytics = ""
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+      hardWraps = true
+      unsafe = true
+      xHTML = true
   [markup.highlight]
-    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
   [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
     startLevel = 2
-    endLevel = 3
 
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+[outputs]
+  page = ["HTML", "SearchIndex"]
+  home = ["HTML", "RSS", "SearchIndex"]
+  section = ["HTML", "RSS", "SearchIndex"]
+  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
+  taxonomy = ["HTML", "RSS", "SearchIndex"]
 
-# Taxonomies.
+[outputFormats]
+  [outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
 [taxonomies]
-  tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+  tag = "tags"
+  series = "series"
