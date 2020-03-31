@@ -99,3 +99,9 @@ I believe that Personal Finance and Investing does not have to be boring, compli
 ### Got a question?
 
 Shoot me an [email](/contact) and we’ll figure it out together!
+
+***
+
+{{< newsletter >}}
+
+***

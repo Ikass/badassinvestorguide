@@ -103,3 +103,9 @@ IB is available in 125 markets, including most stock exchanges of the Europe. So
 So there you have it - if you are country limited in terms of availability of good online brokers, you don’t need to settle with questionable forex brokers for your long-term investments, you will be much better off by choosing a good, well-established online broker that provides access to the vast majority of stock exchanges and is available in nearly every country. 
 
 Go on and [open an account with TradeStation Global](https://www.tradestation-international.com/global/open-an-account/).
+
+***
+
+{{< newsletter >}}
+
+***
