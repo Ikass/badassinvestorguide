@@ -14,7 +14,7 @@ categories = [
     "investing",
 ]
 
-image = "images/broker-non-eu/best-online-stock-broker-non-eu-countries.jpg"
+image = "images/broker-non-eu/best-online-stock-broker-non-eu-countries.webp"
 +++
 
 You’ve saved some money and would like to begin investing, preferably into index fund ETFs with low expense ratios. You plan to follow a buy and hold, long-term investment strategy. You need a good online broker with low fees, that is available in your country.

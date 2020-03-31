@@ -3,7 +3,7 @@ title = "About"
 description = "Hugo, the world’s fastest framework for building websites"
 type = "about"
 date = "2019-03-19"
-image = "images/whoami/typewriter-small.jpg"
+image = "images/whoami/typewriter.webp"
 +++
 I’m a guy in my late 30s from Northern Europe, Latvia, to be precise. 
 

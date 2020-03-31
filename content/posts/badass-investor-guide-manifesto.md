@@ -11,7 +11,7 @@ tags = [
 categories = [
     "investing",
 ]
-image = "images/manifesto/stock-market-direction-small.jpg"
+image = "images/manifesto/stock-market-direction.webp"
 +++
 
 Why another personal finance and investing website? What’s in it for you? And who am I?
