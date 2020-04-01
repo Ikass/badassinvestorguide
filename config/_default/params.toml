@@ -93,12 +93,10 @@ enableComment = true
 disqus_shortname = ""
 commento = false
 
-# replybox = true
-
 # ReplyBox: https://getreplybox.com/
 [replybox]
   enable = true
-  # siteID = "E9rYZkGn2L"
+  siteID = "E9rYZkGn2L"
   # scriptSrc = "https://cdn.getreplybox.com/js/embed.js"
 
 
