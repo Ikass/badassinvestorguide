@@ -37,7 +37,7 @@ stackoverflow = "https://stackoverflow.com/users/user"
 twitter = "https://twitter.com/Ray19442580"
 youtube = "https://www.youtube.com/user"
 reddit = "https://www.reddit.com/user/RayHasSpoken"
-footer = ["twitter", "reddit", "pinterest"]
+footer = ["twitter", "pinterest", "reddit"]
 
 [params.services]
 analyticsId = ""
@@ -52,8 +52,8 @@ facebookPixel = ""
 disqusUser = ""
 
 [params.logo]
-inline = true
-path = "/static/image/brand/logo.svg"
+inline = false
+path = ""
 
 [params.image]
 width = "2048"
