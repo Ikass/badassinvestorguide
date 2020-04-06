@@ -14,7 +14,9 @@ categories = [
     "investing",
 ]
 
-image = "images/broker-non-eu/best-online-stock-broker-non-eu-countries.webp"
+feature = "image/broker-non-eu/best-online-stock-broker-non-eu-countries.webp"
+
+aliases = ["/posts/best-broker-non-eu/"]
 +++
 
 You’ve saved some money and would like to begin investing, preferably into index fund ETFs with low expense ratios. You plan to follow a buy and hold, long-term investment strategy. You need a good online broker with low fees, that is available in your country.
@@ -104,8 +106,3 @@ So there you have it - if you are country limited in terms of availability of go
 
 Go on and [open an account with TradeStation Global](https://www.tradestation-international.com/global/open-an-account/).
 
-***
-
-{{< newsletter >}}
-
-***
