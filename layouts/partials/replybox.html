@@ -1,5 +1,6 @@
 <div id="replybox"></div>
 
+{{ if not (in (string .Site.BaseURL) "localhost")}}
 <script>
     window.replybox = {
         site: 'E9rYZkGn2L', 
@@ -7,3 +8,4 @@
     };
     </script>
     <script src="https://cdn.getreplybox.com/js/embed.js"></script>
+{{ end }}
